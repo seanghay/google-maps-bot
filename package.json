@@ -1,0 +1,27 @@
+{
+	"name": "google-maps-bot",
+	"version": "0.0.0",
+	"main": "main.js",
+	"type": "module",
+	"scripts": {
+    "start": "node main.js",
+    "dev": "nodemon"
+  },
+	"keywords": [
+		"google-maps",
+		"maps",
+		"crawler"
+	],
+	"author": {
+		"name": "Seanghay Yath",
+		"email": "seanghay.dev@gmail.com",
+		"url": "https://github.com/seanghay"
+	},
+	"license": "Apache-2.0",
+  "dependencies": {
+    "puppeteer-core": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  }
+}
