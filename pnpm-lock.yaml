@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   chrome-aws-lambda: ^10.1.0
   nodemon: latest
-  puppeteer-core: ^17.1.3
+  puppeteer-core: 17.1.3
   vercel: ^28.2.5
 
 dependencies:

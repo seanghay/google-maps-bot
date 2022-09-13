@@ -1,7 +1,8 @@
-import { launch } from 'puppeteer-core';
+import puppeteer from 'puppeteer-core';
 import chrome from 'chrome-aws-lambda';
 const isDev = !process.env.AWS_REGION;
 
+const { launch } = puppeteer;
 
 export async function fetchInfo(mapURL, photosLimit = 10) {
 
